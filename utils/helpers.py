@@ -28,5 +28,5 @@ def score(text: str, keywords: List[str]) -> int:
 
 
 def make_summary(all_matches: List[Match]) -> str:
-    return all_matches[0].text
+    return all_matches[0].text if all_matches else "Nothing found."
 
