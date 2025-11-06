@@ -2,6 +2,13 @@
 
 Legal documents mock API.
 
+## Dependencies:
+
+- Python 3.10
+- FastAPI==0.104.1
+- Uvicorn[standard]==0.24.0
+- Pydantic==2.5.0
+
 ## Setup
 
 ```bash
